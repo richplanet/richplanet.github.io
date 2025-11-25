@@ -3,11 +3,20 @@
     "details": [
       {
         "appID": "CZD4EYKC58.com.richnco.app.GoodRich",
-        "paths": [ 
-          "NOT /admin/*",
-          "/test/*", 
-          "/", 
-          "/*"
+        "components": [
+          {
+            "/": "/admin/*",
+            "exclude": true,
+            "commment": "admin으로 접근하는건 허용하지 않겠습니다!"
+          },
+          {
+            "/": "/test/*",
+            "commment": "test으로 접근하는건 허용"
+          },
+          {
+            "/": ".*",
+            "commment": "나머지 허용"
+          }
         ]
       }
     ]
