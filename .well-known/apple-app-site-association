@@ -4,10 +4,10 @@
       {
         "appID": "CZD4EYKC58.com.richnco.app.GoodRich",
         "paths": [ 
+          "NOT /admin/*",
           "/test/*", 
           "/", 
-          "/*",
-          "NOT /admin/*"
+          "/*"
         ]
       }
     ]
