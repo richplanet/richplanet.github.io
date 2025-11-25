@@ -3,7 +3,12 @@
     "details": [
       {
         "appID": "CZD4EYKC58.com.richnco.app.GoodRich",
-        "paths": [ "/test/*", "/", "/*" ]
+        "paths": [ 
+          "/test/*", 
+          "/", 
+          "/*",
+          "NOT /admin/*"
+        ]
       }
     ]
   }
