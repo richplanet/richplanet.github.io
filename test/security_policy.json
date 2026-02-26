@@ -1,0 +1,68 @@
+{
+  "message": "",
+  "responseCode": 200,
+  "data": {
+    "result": "SUCCESS",
+    "threshold": 100,
+    "checkerList": [
+      {
+        "name": "AMFI",
+        "weight": 100
+      },
+      {
+        "name": "TaskPort",
+        "weight": 100
+      },
+      {
+        "name": "CriticalAPIHook",
+        "weight": 100
+      },
+      {
+        "name": "RuntimeHook",
+        "weight": 70
+      },
+      {
+        "name": "DYLD",
+        "weight": 70
+      },
+      {
+        "name": "Fork",
+        "weight": 50
+      },
+      {
+        "name": "FridaPort",
+        "weight": 50
+      },
+      {
+        "name": "RestrictedDirs",
+        "weight": 40
+      },
+      {
+        "name": "SuspiciousObjC",
+        "weight": 40
+      },
+      {
+        "name": "SuspiciousFilesExist",
+        "weight": 20
+      },
+      {
+        "name": "SuspiciousFilesOpen",
+        "weight": 20
+      },
+      {
+        "name": "SymbolicLinks",
+        "weight": 20
+      },
+      {
+        "name": "UrlSchemes",
+        "weight": 20
+      },
+      {
+        "name": "DYLDEnv",
+        "weight": 20
+      }
+    ],
+    "message": ""
+  },
+  "result": "SUCCESS"
+}
